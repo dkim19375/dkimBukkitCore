@@ -33,7 +33,7 @@ repositories {
 
 dependencies {
     api("io.github.dkim19375:dkimcore:1.5.0")
-    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25")
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.10")
 
     compileOnly("me.clip:placeholderapi:2.11.6")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7.1")
@@ -43,7 +43,7 @@ dependencies {
     // testing libs
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
-    testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.25")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:2.1.10")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.4")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.11.4")
